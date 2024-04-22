@@ -1,11 +1,8 @@
-# 04/25 Worksheet: Dynamic Programming
-## Initial due date: 04/29 5pm
-### Accepted as on time until: 05/01 11:59pm
-### Note that the deadline to turn in *with opportunity for revision* is Friday, 04/29
+# Worksheet: Dynamic Programming
+
 Collaborators:
 
 Answer the below questions, and make sure that you commit to your own branch.
-When done, run your code through [the autograder](http://autograder.oxy.edu/) and make a pull request on github. Don't forget to tag @irabkina.
 Respond to my comments by making new commits to the same branch.
 
 
@@ -44,7 +41,7 @@ You will write your code in `StairHop.java`. Please submit that file to the auto
    d. What is the worst case computational complexity of your dynamic programming solution?
    
 3. Next, we will explore how to convert gerrymandering into a dynamic programming problem. We will assume that each block has the same population, and that the total number of blocks is divisible by the number of districts required. This means that each district will have the same number of blocks. 
-   A given gerrymandering problem will divide *n* blocks into *k* districts of *(n/k)* blocks. Playing around with [this interactive demo](http://appoxy.herokuapp.com/dyna_prog/#rows=4&cols=4&demographics=RBBRRRBRRBBBRRRR) might help you tackle the problems below.    
+   A given gerrymandering problem will divide *n* blocks into *k* districts of *(n/k)* blocks. 
    a. Gerrymandering is really about the different ways you can *partition* the map into *k* non-overlapping districts. For the map below, draw all the ways you can partition it into 3 districts of 3 blocks each. (Hint: there should be 10 partitions total.)
 
     ![](explore-3.png)  
